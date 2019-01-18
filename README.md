@@ -1,7 +1,9 @@
 # Plant Monitoring System
 #### Olufolajimi Babasola (ob304), Queens' College, Cambridge
 
-A temperature and relative humidity monitoring system for indoor farms. Based on [Warp Firmware](https://github.com/physical-computation/Warp-firmware) by Philip Stanley-Marbell and Martin Rinard
+A temperature and relative humidity monitoring system for indoor farms. Based on [Warp Firmware](https://github.com/physical-computation/Warp-firmware) by Philip Stanley-Marbell and Martin Rinard.
+
+The main functional changes are in are [devSI7021.c](./src/boot/ksdk1.1.0/devSI7021.c) and [warp-kl03-ksdk1.1-boot.c](./src/boot/ksdk1.1.0/warp-kl03-ksdk1.1-boot.c). To test it on your own KL03 board, please upload the [SREC file](./build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.srec).
 
 ## Getting Started
 
