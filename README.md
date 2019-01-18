@@ -39,6 +39,7 @@ This copies the files from  `Warp/src/boot/ksdk1.1.0/`  into the KSDK tree, buil
 
 Connect the KL03 to you computer and open the SEGGER interface. On mac, this should look like this: 
 
+![SEGGER Interface](SEGGER_Interface.png)
 
 Erase the chip, upload the SREC file generated and program the device.
 
@@ -52,7 +53,7 @@ In the second shell window, launch the JLink RTT client. On MacOS, this will be:
 
 The JLink RTT client will display the temperature and humidity readings. On MacOS, this should look like this:
 
-
+![JLink RTT Client](SI7021_Readings.png)
 
 ## Acknowledgements
 
